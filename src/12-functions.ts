@@ -17,6 +17,7 @@
 
   const producto1 = createProductToJson("P1", new Date(), 23, "XL");
   console.log(producto1);
+  console.log(producto1.createdAt);
 
   const createProductToJsonV2 = (
     title: string,
